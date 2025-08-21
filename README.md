@@ -61,28 +61,15 @@ The project follows a structured approach to model development and evaluation:
         Jupyter Notebook
 
 💾 Dataset
+
 The analysis is performed on the alzheimers_disease_data.csv dataset, which contains various patient attributes, including:
 
-Demographic information (Age, Gender, Ethnicity, Education Level)
+        Demographic information (Age, Gender, Ethnicity, Education Level)
 
-Health metrics (BMI, Smoking, Alcohol Consumption, Physical Activity)
+        Health metrics (BMI, Smoking, Alcohol Consumption, Physical Activity)
 
-Clinical measurements (Blood Pressure, Cholesterol Levels)
+        Clinical measurements (Blood Pressure, Cholesterol Levels)
 
-Cognitive and functional assessments (MMSE, ADL, Memory Complaints)
+        Cognitive and functional assessments (MMSE, ADL, Memory Complaints)
 
 The target variable is Diagnosis, which indicates the presence or absence of Alzheimer's disease.
-
-🚀 How to Use
-To run this project, follow these steps:
-
-Clone the repository:
-
-git clone <your-repository-link>
-
-Install the required libraries:
-
-pip install numpy pandas matplotlib seaborn scikit-learn
-
-Run the Jupyter Notebook:
-Open and execute the Alzheimer.ipynb notebook to see the complete analysis, from data loading to model evaluation.
